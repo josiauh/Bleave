@@ -1,5 +1,5 @@
 import * as readline from 'readline/promises';
-import { readFile, readFileSync } from "fs";
+import { readFile } from "fs";
 import { Parser } from './parse/main';
 import { BleaveSyntax } from './parse/bleaveSyntax';
 
@@ -11,6 +11,7 @@ const rl = readline.createInterface({
 const file = process.argv[2];
 
 let parser = new Parser();
+console.log("Bleave 1.0.0")
 if (file) {
     const txt = readFile(file, (err, txt) => {
         runText(txt.toString())
