@@ -1,0 +1,8 @@
+{
+    "syntax": "npm run blv <options>",
+    "options": {
+        "h": "Display this help message.",
+        "file": "A filename to run.",
+        "nothing": "Putting nothing will put you into fiddle mode. Useful to see what code works and what doesn't."
+    }
+}

@@ -1,0 +1,11 @@
+log('i am')
+out('a bird')
+log("that flies")
+out("sideways")
+/*
+this should output:
+i am
+a bird
+that flies
+sideways
+*/
