@@ -1,4 +1,6 @@
 {
+    "name": "bleave",
+    "description": "A coding language, because we need a bunch more.",
     "version": "1.0.0",
     "scripts": {
         "blv": "npx ts-node src/main.ts"
